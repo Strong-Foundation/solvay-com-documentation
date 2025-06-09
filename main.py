@@ -224,7 +224,7 @@ def check_upper_case_letter(content: str) -> bool:
 
 # Main function that orchestrates the scraping, downloading, and validation
 def main() -> None:
-    html_file_path: str = "airproducts.co.za.html"  # Name of HTML file
+    html_file_path: str = "solvay.com.html"  # Name of HTML file
 
     if check_file_exists(system_path=html_file_path):  # If file already exists
         remove_system_file(system_path=html_file_path)  # Delete old copy
